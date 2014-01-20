@@ -102,7 +102,7 @@ namespace IO
     /// </summary>
     public class IOUnitProcessor : IIOSyncNonBlockingUnitProcessor
     {
-        private const string CLASS_NAME = "IOProcessor";
+        private const string CLASS_NAME = "IOUnitProcessor";
 
         /// <summary>
         /// Synchronous Connect using the connection timeout.
@@ -345,7 +345,7 @@ namespace IO
 
         #region Private Members
 
-        private CAFipay _connection = null;
+        private XXX _connection = null;
         private int _index = 0;
         private AutoResetEvent _mreSend;
         private DateTime? _lastSignaledDateTime = null;
@@ -377,7 +377,7 @@ namespace IO
         public IOUnitProcessor(int index, int connectionTimeout, int waitSendTimeout, int waitReceiveTimeout, int minimumPeriodBeforeWaitOnSend, int minimumPeriodBeforeWaitOnReceive)
         {
             _index = index;
-            _connection = new CAFipay(24900, "127.0.0.1", false);
+            _connection = new XXX(24900, "127.0.0.1", false);
             _connectionTimeout = connectionTimeout;
             _connection.ConnectTimeout = connectionTimeout;
             _mreSend = new AutoResetEvent(false);
