@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 using AJB.Lib;
 using IssRetail.CoreSvc;
 
-namespace E3Retail.TP.HostAuthAdapter.AJB.Comm.FiPay20
+namespace IO
 {
     public struct Message
     {
