@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace E3Retail.TP.HostAuthAdapter.AJB.Comm.FiPay20
+namespace IO
 {
     /// <summary>
     /// Elementary component able to process a IO message in a synchronous non blocking pattern.
