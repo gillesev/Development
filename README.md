@@ -3,9 +3,9 @@ Development
 
 small c# library that can hook into a 3nd party synchronous non blocking messaging API. More specifically an API that would 
 expose a shape of APIs like:
-- void send(string msg): to send the message as a string
-- bool received(): returns true if there are new incoming msg responses
-- string read(): to read new messages as string
+- int send(string msg): to send the message as a string (non blocking)
+- bool received(): returns true if there ia a new message to read
+- string read(): to read a new message as a string
 
 AND
 
